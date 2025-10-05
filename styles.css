@@ -1,0 +1,31 @@
+:root{
+  --ivory:#F8F5EE;
+  --graphite:#3A3A3A;
+  --ink:#0D0D0D;
+  --gold:#C5A872;
+  --verm:#9C2B2E;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ivory);color:var(--graphite);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+h1,h2{font-family:"Playfair Display", Georgia, serif;color:var(--ink);letter-spacing:.2px}
+a{color:var(--ink);text-decoration:none}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;border-bottom:1px solid rgba(0,0,0,.05);position:sticky;top:0;background:var(--ivory)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600}
+.mi{width:28px;height:28px}
+.nav a{margin-left:16px;opacity:.9}
+.nav .cta{padding:8px 12px;border:1px solid var(--gold);border-radius:6px}
+.hero{padding:96px 22px;max-width:980px;margin:0 auto;text-align:center}
+.hero h1{font-size:48px;margin:0 0 10px}
+.hero p{max-width:720px;margin:0 auto 24px;font-size:18px}
+.btn{display:inline-block;padding:12px 18px;border-radius:8px;border:1px solid var(--ink);}
+.about,.gallery,.commission{padding:56px 22px;max-width:980px;margin:0 auto}
+.about p{font-size:18px}
+.gallery p{font-size:17px}
+.form{margin-top:18px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+input,select,textarea{width:100%;padding:10px;border:1px solid rgba(0,0,0,.15);border-radius:8px;background:#fff}
+button.btn{background:var(--ink);color:#fff;border-color:var(--ink)}
+.fine{font-size:12px;opacity:.7;margin-top:8px}
+.foot{display:flex;justify-content:space-between;align-items:center;padding:22px;border-top:1px solid rgba(0,0,0,.05);font-size:14px}
+.sig{font-family:"Playfair Display", Georgia, serif;font-style:italic;color:var(--gold);opacity:.2;font-size:22px}
+@media (max-width:680px){.grid{grid-template-columns:1fr} .hero h1{font-size:36px}}

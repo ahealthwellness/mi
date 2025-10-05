@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manifest Inkara (Mi) — Legacy made visible.</title>
+  <meta name="description" content="Manifest Inkara (Mi) is an art–tech movement where conversation becomes portrait. Legacy made visible.">
+  <meta property="og:title" content="Manifest Inkara (Mi) — Legacy made visible.">
+  <meta property="og:description" content="Where human intent meets machine imagination.">
+  <meta property="og:image" content="/assets/og.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/mi.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">
+      <img src="/assets/mi.svg" alt="Mi" class="mi">
+      <span>Manifest Inkara</span>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#commission" class="cta">Commission</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Legacy made visible.</h1>
+      <p>Your portrait, rebuilt from the handwritten thoughts of history’s fiercest minds.
+         Not nostalgia — manifestation.</p>
+      <a class="btn" href="#commission">Commission your Manifest</a>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Manifest Inkara (Mi)</h2>
+      <p>Manifest Inkara (Mi) is a co-creation between human and intelligence —
+         an art–tech movement where personal legacies are reconstructed from the thoughts
+         and handwriting of history’s greatest minds.</p>
+      <p>Every Manifest piece begins with conversation, becomes text, and transforms into a portrait — a reflection of who we are, shaped by those who came before.</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <h2>First Artifact</h2>
+      <p><em>Founders Manifest Portrait — Text Edition</em> (coming soon).
+         The entire dialogue between Founder and Inka, shaped into a single portrait.
+         Signed quietly: <strong>Mi</strong>.</p>
+    </section>
+
+    <section id="commission" class="commission">
+      <h2>Commission</h2>
+      <p>Start your Manifest. We’ll guide you from base photo to legacy-inspired artwork.
+         You’ll receive a high-resolution digital piece, with options for physical editions.</p>
+      <form action="https://formspree.io/f/xyyydemo" method="POST" class="form">
+        <div class="grid">
+          <label>Full name
+            <input name="name" required>
+          </label>
+          <label>Email
+            <input name="email" type="email" required>
+          </label>
+        </div>
+        <label>Choose tile set
+          <select name="tiles">
+            <option>Einstein</option>
+            <option>Einstein + van Gogh + da Vinci (Trio)</option>
+            <option disabled>Full 8 (coming soon)</option>
+          </select>
+        </label>
+        <label>Style
+          <select name="style">
+            <option>Monochrome</option>
+            <option>Colour</option>
+          </select>
+        </label>
+        <label>Notes (ethos, quote, logo, intent)
+          <textarea name="notes" rows="4" placeholder="Tell us the story you want to make visible…"></textarea>
+        </label>
+        <button class="btn" type="submit">Submit request</button>
+        <p class="fine">By submitting, you confirm you own rights to the uploaded materials and consent to transformation for personal use.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span class="sig">Mi</span>
+    <div>© Manifest Inkara — The Manifest Project</div>
+  </footer>
+</body>
+</html>
